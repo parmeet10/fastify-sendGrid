@@ -5,14 +5,6 @@ import sendgrid, { MailService } from "@sendgrid/mail";
 interface SendgridPluginOptions extends FastifyPluginOptions {
   apiKey: string;
 }
-declare module "fastify" {
-  interface FastifyInstance {
-    sendgrid: MailService;
-  }
-  interface FastifyReply {
-    sendgrid: MailService;
-  }
-}
 
 const sendgridPlugin: FastifyPluginCallback<SendgridPluginOptions> = (
   fastify,
