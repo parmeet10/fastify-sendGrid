@@ -1,0 +1,23 @@
+{
+  "name": "@fastify/sendgrid",
+  "version": "1.0.0",
+  "description": "fastify plugin to implement sendgrid mail service",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fastify",
+    "fastify-plugin",
+    "sendgrid"
+  ],
+  "author": "Parmeet Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "@types/node": "^18.15.11",
+    "fastify": "^4.15.0",
+    "fastify-plugin": "^4.5.0",
+    "typescript": "^5.0.4"
+  }
+}
