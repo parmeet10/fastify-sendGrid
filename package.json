@@ -23,5 +23,8 @@
     "fastify": "^4.15.0",
     "fastify-plugin": "^4.5.0",
     "typescript": "^5.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
